@@ -27,13 +27,13 @@ Each transaction includes:
 
 ## 🛠️ Feature Engineering Highlights
 
-- **Time-Based Features**: `dayofweek`, `week`, `month`, `is_weekend`
-- **Lag and Rolling Statistics**:
+- **Time-Based Features** - `dayofweek`, `week`, `month`, `is_weekend`
+- **Lag and Rolling Statistics** -
   - `cumsum_seatcount`, `cumsum_searchcount` till `dbd = 15`
   - `lag1`, `rolling_mean3`, `rolling_std3` per route
-- **Grouped Aggregations**:
+- **Grouped Aggregations** -
   - Aggregates by `srcid`, `destid`, `srcid_destid`, `srcid_week`, `destid_month`
-- **Categorical Encodings**:
+- **Categorical Encodings** -
   - Label Encoding for region and tier features
 
 ---
@@ -52,8 +52,8 @@ Each transaction includes:
 
 ## 📈 Performance Summary
 
-- **Best Validation RMSE**: ~804.37
-- **Tabular ensemble** improved generalization by combining:
+- **Best Validation RMSE** - ~804.37
+- **Tabular ensemble** improved generalization by combining -
   - LightGBM (Optuna-tuned)
   - XGBoost
   - CatBoost
@@ -69,9 +69,6 @@ Each transaction includes:
 - Optuna (hyperparameter tuning)
 - TabNet (`pytorch-tabnet`)
 - Matplotlib, Seaborn (for EDA)
-
----
-
 ## 🏁 Leaderboard Rank
 
 Achieved **Rank #258** out of 8500+ participants with a score of **682.60334**
