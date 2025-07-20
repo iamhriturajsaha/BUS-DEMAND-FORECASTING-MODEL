@@ -1,4 +1,4 @@
-# 🚌 BUS DEMAND FORECASTING MODEL
+# 🚌 Bus Demand Forecasting Model
 
 ## 🚀 Problem Statement
 The goal is to forecast bus seat demand at the route level exactly **15 days before the date of journey (doj)**. Demand patterns depend on a complex mix of factors like holidays, weekends, regional events, and seasonality. This task is formulated as a **tabular time-series regression problem**.
