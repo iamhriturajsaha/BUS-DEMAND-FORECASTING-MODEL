@@ -69,9 +69,11 @@ Each transaction includes:
 - Optuna (hyperparameter tuning)
 - TabNet (`pytorch-tabnet`)
 - Matplotlib, Seaborn (for EDA)
+
+---
+
 ## 🏁 Leaderboard Rank
 
 Achieved **Rank #258** out of 8500+ participants with a score of **682.60334**
-
 
 ![Leaderboard Rank](Rank.png)
