@@ -44,7 +44,7 @@ Each transaction includes:
 |----------------|-----------------------------------------------------------|
 | Model Types     | LightGBM, XGBoost, CatBoost, TabNet (proxy for TABDPT)    |
 | Ensembling      | Averaging predictions across models and feature subsets   |
-| Validation      | Time-based holdout (train: before Nov 1, val: Nov onwards) |
+| Validation      | Time-based holdout (train - before Nov 1, val: Nov onwards) |
 | Optimization    | Optuna for hyperparameter tuning (LightGBM)               |
 | Metric          | RMSE (Root Mean Squared Error)                            |
 
@@ -52,7 +52,7 @@ Each transaction includes:
 
 ## 📈 Performance Summary
 
-- **Best Validation RMSE** - ~804.37
+- **Best Validation RMSE** - 791.0773
 - **Tabular ensemble** improved generalization by combining -
   - LightGBM (Optuna-tuned)
   - XGBoost
@@ -74,6 +74,6 @@ Each transaction includes:
 
 ## 🏁 Leaderboard Rank
 
-Achieved **Rank #258** out of 8500+ participants with a score of **682.60334**
+Achieved **Rank #258** out of 8500 participants with a score of **682.60334**
 
 ![Leaderboard Rank](Rank.png)
